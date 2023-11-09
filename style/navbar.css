@@ -1,0 +1,59 @@
+
+@media(width < 760px){
+
+  
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* overflow: hidden !important; */
+  }
+
+  .header-center {
+    width: 30%;
+    height: 360px;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    background-color: #4a4a4b;
+    transition: all 0.7s ease;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    opacity: 100%;
+  }
+
+  .hide {
+
+    opacity: 0;
+    visibility: hidden;
+  
+  }
+
+  .form-list ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-list ul li {
+    margin: 10px 0px;
+  }
+  .form-list ul li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .form-list ul li a:hover {
+    color: white;
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .header-rs {
+    display: none;
+  }
+}
